@@ -1,0 +1,147 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+header{
+    text-align: center;
+    background-color: purple;
+    padding: 16px;
+    color: whitesmoke;
+}
+nav{
+    text-align: center;    
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+main{
+    padding: 20px;
+}
+
+section{
+    margin-bottom: 20px;
+    border: 1px solid none;
+    padding: 20px;
+}
+img{
+    max-width: 100%;
+    display: inline;    
+    height: auto;
+}
+
+.Titulo-Murasaki{
+    align-items: center;
+    text-align: center;
+    border: 1px solid none;
+    padding: 0px;
+    margin: 0;
+}
+.container{
+    background-color: aqua;
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+}
+.Cuerpo{
+    text-align: center;
+    border: 1px solid none;
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 250%;
+}
+.Cuerpo form{
+    max-width: 400px;
+    margin: auto;
+}
+.Cuerpo label{
+    display: block;
+    margin-bottom: 10px;
+}
+.Cuerpo input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+.CuerpoPrincipal{
+    border: 1px solid none;
+    padding: 10px;
+}
+footer{
+    border: 1px solid none;
+    padding: 30px;
+    text-align: center;
+    background-color: purple;
+
+}
+.Contenedor{
+border: 1px solid none;
+padding: 0;
+display: flex;
+max-width: 1000px;
+max-height: 1000px;
+justify-content: space-around;
+align-items:center;
+text-align: center;
+font-size: large;
+
+}
+.Imagenes{
+    border: 1px solid none;
+    padding: 0;
+    margin: 0;
+    height:250px;
+    width: 250px;
+    object-fit: fill;
+}
+.Imagenes p{
+    font-size: smaller;
+    object-position: 1%;
+    padding: 0%;
+    margin: 2px;
+}
+.Imagenes h2{
+    font-size: medium;
+    font-weight: 100;
+    font-style: italic;
+    padding: 0%;
+    margin: 2px;
+}
+.pie-de-pagina div{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.pie-de-pagina ol{
+    align-items: center;
+    padding: 9px;
+    margin: 0;
+    display:block;
+}
+.pie-de-pagina li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* Esto es Responsive */
+@media screen and (min-width: 500px ) {
+    .Contenedor{
+        width: auto;
+        height: auto;
+    }  
+}
